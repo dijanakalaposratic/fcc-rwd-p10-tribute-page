@@ -4,8 +4,8 @@
 }
 
 #image {
-    max-width: ;
-    max-height: ;
+    max-width: 500px;
+    max-height: auto;
 }
 
 img {
@@ -23,6 +23,14 @@ figcaption {
     font-style: italic;
 }
 
+#tribute-info {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
 ul > li {
     list-style-type: disc;
+    font-size: 17px;
 }
