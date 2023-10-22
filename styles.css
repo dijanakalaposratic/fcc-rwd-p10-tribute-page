@@ -28,9 +28,11 @@ figcaption {
     text-align: center;
     font-size: 25px;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 
 ul > li {
     list-style-type: disc;
     font-size: 17px;
 }
+
