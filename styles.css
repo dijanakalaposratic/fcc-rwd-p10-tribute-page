@@ -1,14 +1,25 @@
 * {
     font-family: Tahoma, sans-serif;
+    padding: 8px;
+}
+
+.main-content {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #title {
     text-align: center;
     font-size: 40px;
+    background-color: #DDDEE5;
+    padding: 10px;
 }
 
 #image {
-    max-width: 800px;
+    max-width: 90%;
     max-height: auto;
 }
 
@@ -32,15 +43,30 @@ figcaption {
     text-align: center;
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: #DDDEE5;
+    padding: 10px;
+}
+
+.container {
+    width: 98%;
+    max-width: 1000px;
+}
+
+ul {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0;
 }
 
 ul > li {
     list-style-type: disc;
     font-size: 17px;
+    text-align: justify;
 }
 
 .indent {
-    margin-top: 20px;
-    margin-left: 2.5em;
+    margin-top: 10px;
+    margin-left: 1em;
 }
