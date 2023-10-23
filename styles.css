@@ -7,8 +7,7 @@
     display: flex;
     width: 90%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: center; /* Center horizontally */
 }
 
 #title {
@@ -18,17 +17,19 @@
     padding: 10px;
 }
 
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center the image itself */
+}
+
 #image {
-    max-width: 90%;
+    max-width: 100%;
     max-height: auto;
 }
 
-img {
-    display: block;
-    margin: auto;
-    max-width: 100%;
-    justify-content: center;
-}
 
 figcaption {
     display: block;
